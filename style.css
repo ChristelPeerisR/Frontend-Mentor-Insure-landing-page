@@ -8,6 +8,10 @@
   --Very-Light-Gray: hsl(0, 0%, 98%);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
