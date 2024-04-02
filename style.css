@@ -47,15 +47,25 @@ nav {
   list-style: none;
 }
 
-.nav-link {
+.nav-link a {
   text-transform: uppercase;
   font-size: 16px;
   cursor: pointer;
   color: var(--Dark-Grayish-Violet);
   font-weight: 700;
+  text-decoration: none;
 }
 
-.nav-link:hover {
+.nav-line a {
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--Dark-Grayish-Violet);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-link a:hover {
   color: var(--Very-Dark-Violet);
   transition: color 0.3s;
 }
